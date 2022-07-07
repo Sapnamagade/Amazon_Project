@@ -1,0 +1,231 @@
+﻿Function signin()
+Dim res7,res8
+res7=DataTable.Value("Expected_Value","Test Data")
+Browser(browserObject).Navigate(DataTable.Value("url","Test Data"))
+Browser(browserObject).Page(pageObject).WebElement(signinObject).Click
+Browser(browserObject).Page(pageObject).WebEdit(EmailObject).set"1998magade@gmail.com"
+Browser(browserObject).Page(pageObject).WebButton(ContinueObject).click
+Browser(browserObject).Page(pageObject).WebEdit(psw_Object).Set"Sapnamagade@123"
+Browser(browserObject).Page(pageObject).WebButton(sign1Object).Click
+res8=Browser(browserObject).Page(pageObject).WebElement(check_1Object).GetROProperty("text")
+print res8
+If strcomp(res7,res8)=0 Then
+Reporter.ReportEvent micPass, "sign in", "pass"	
+Else
+Reporter.ReportEvent micFail, "sign in", "fail"
+End If
+If strcomp(res7,res8)=0 Then
+signin="pass"	
+Else
+signin="fail"
+End If
+SystemUtil.CloseProcessByName"chrome.exe"
+End  Function
+
+
+ Function forgot()
+ Dim res15,res16
+ res15=DataTable.Value("Expected_Value","Test Data")
+ Browser(BrowserObject).Page(pageObject).WebElement(signinObject ).Click
+      Browser(browserObject).Page(pageObject).WebEdit(EmailObject).Set "1998magade@gmail.com"
+      Browser(browserObject).Page(pageObject).WebButton(ContinueObject).Click
+      Browser(browserObject).Page(pageObject).Link(forgotObject).Click
+        Browser(browserObject).Page(pageObject).WebButton(ContinueObject).Click
+        res16= Browser(browserObject).Page(pageObject).WebElement(check_14Object).GetRoProperty("text")
+ If strcomp(res15,res16)=0 Then
+Reporter.ReportEvent micPass, "send otp", "pass"	
+Else
+Reporter.ReportEvent micFail, "send otp", "fail"
+End If
+ If strcomp(res15,res16)=0 Then
+forgot= "pass"	
+Else
+ forgot="fail"
+End If
+SystemUtil.CloseProcessByName"chrome.exe"
+End  Function
+ 
+Function InvalidCredential()
+Dim res1,res2
+res1=DataTable.Value("Expected_Value","Test Data")
+Browser(browserObject).Page(pageObject).WebElement(signinObject).Click
+Browser(browserObject).Page(pageObject).WebEdit(EmailObject).set"1998magade@gmail.com"
+Browser(browserObject).Page(pageObject).WebButton(ContinueObject).click
+Browser(browserObject).Page(pageObject).WebEdit(pswObject).Set"Sa@1234"
+Browser(browserObject).Page(pageObject).WebButton(sign1Object).Click
+res2=Browser(browserObject).Page(pageObject).WebElement(check_2Object).GetROProperty("text")
+
+If strcomp(res1,res2)=0 Then
+Reporter.ReportEvent micPass, "InvalidCredential", "pass"	
+Else
+Reporter.ReportEvent micFail, "InvalidCredential", "fail"
+End If
+If strcomp(res1,res2)=0 Then
+ InvalidCredential= "pass"	
+Else
+ InvalidCredential()="fail"
+End If
+SystemUtil.CloseProcessByName"chrome.exe"
+End Function
+
+Function validate_OTP()
+Dim res3,res4
+res3=DataTable.Value("Expected_Value","Test Data")
+      Browser(BrowserObject).Page(pageObject).WebElement(signinObject ).Click
+      Browser(browserObject).Page(pageObject).WebEdit(EmailObject).Set "1998magade@gmail.com"
+      Browser(browserObject).Page(pageObject).WebButton(ContinueObject).Click
+      Browser(browserObject).Page(pageObject).Link(forgotObject).Click
+     Browser(browserObject).Page(pageObject).WebEdit(EmailObject).set"1998magade@gmail.com"
+    Browser(browserObject).Page(pageObject).WebButton(ContinueObject).Click
+    Browser(browserObject).Page(pageObject).WebEdit(otpObject).set"534923"
+   Browser(browserObject).Page(pageObject).WebButton( ContiObject).click
+    res4=Browser(browserObject).Page(pageObject).WebElement(check_4Object).GetROProperty("text")
+  
+If strcomp(res3,res4)=0 Then
+Reporter.ReportEvent micPass, "Invalid OTP", "pass"	
+Else
+Reporter.ReportEvent micFail, "Invalid OTP", "fail"
+End if
+If strcomp(res3,res4)=0 Then
+validate_OTP= "pass"	
+Else
+ validate_OTP= "fail"
+End if
+SystemUtil.CloseProcessByName"chrome.exe"
+End Function
+
+Function new_account()
+Dim  result1,result2
+result1=DataTable.Value("Expected_Value","Test Data")
+Browser(BrowserObject).Page(pageObject).WebElement(signinObject).Click
+Browser(BrowserObject).Page(pageObject).Link(new_accObject).Click
+Browser(BrowserObject).Page(pageObject).WebEdit(name_Object).set"zxcvbnm"
+Browser(BrowserObject).Page(pageObject).WebEdit(mob_Object).Set"9359645356"
+Browser(BrowserObject).Page(pageObject).WebEdit(EmailObject).Set"123sapanamagade@gmail.com"
+Browser(BrowserObject).Page(pageObject).WebEdit(psw_Object).set"admin@1234"
+Browser(BrowserObject).Page(pageObject).WebButton(ContinueObject).click	
+ result2=Browser(browserObject).Page(pageObject).WebElement(check_18Object).GetROProperty("text")
+  If strcomp(result1,result2)=0 Then
+Reporter.ReportEvent micPass, "newacc", "pass"	
+Else
+Reporter.ReportEvent micFail, "newacc", "fail"
+End if
+If strcomp(result1,result2)=0 Then
+new_account= "pass"	
+Else
+new_account = "fail"
+End if
+SystemUtil.CloseProcessByName"chrome.exe"
+End Function
+
+Function inval_pass()
+Dim res5,res6
+res5=DataTable.Value("Expected_Value","Test Data")
+Browser(BrowserObject).Page(pageObject).WebElement(signinObject).Click
+Browser(BrowserObject).Page(pageObject).Link(new_accObject).Click
+Browser(BrowserObject).Page(pageObject).WebEdit(name_Object).set"zxcvbnm"
+Browser(BrowserObject).Page(pageObject).WebEdit(mob_Object).Set"9359645356"
+Browser(BrowserObject).Page(pageObject).WebEdit(EmailObject).Set"123sapanamagade@gmail.com"
+Browser(BrowserObject).Page(pageObject).WebEdit(psw_Object).set"ad@12"
+Browser(BrowserObject).Page(pageObject).WebButton(ContinueObject).Click
+res6=Browser(BrowserObject).Page(pageObject).WebElement(Check_6Object).GetROProperty("text")
+
+If strcomp(res5,res6)=0 Then
+Reporter.ReportEvent micPass, "invali", "pass"	
+Else
+Reporter.ReportEvent micFail,"invali", "fail"
+End If
+If strcomp(res5,res6)=0 Then
+inval_pass= "pass"	
+Else
+inval_pass= "fail"
+End If
+SystemUtil.CloseProcessByName"chrome.exe"
+End  Function
+
+Function accnotfound()
+Dim res9,res10
+res9=DataTable.Value("Expected_Value","Test Data")
+Browser(browserObject).Page(pageObject).WebElement(signinObject).Click
+Browser(browserObject).Page(pageObject).WebEdit(EmailObject).set"magade786@gmail.com"
+Browser(browserObject).Page(pageObject).WebButton(ContinueObject).click
+res10=Browser(browserObject).Page(pageObject).WebElement(Check_8Object).GetROProperty("text")
+If strcomp(res9,res10)=0 Then
+Reporter.ReportEvent micPass, "acc_notfount", "pass"	
+Else
+Reporter.ReportEvent micFail, "acc_notfount", "fail"
+End If
+
+If strcomp(res9,res10)=0 Then
+accnotfound="pass"	
+Else
+accnotfound= "fail"
+End If
+SystemUtil.CloseProcessByName"chrome.exe"
+End  Function
+
+Function resendotp()
+
+Dim res11,res12
+res11="A new OTP has been sent to your email."
+Browser(browserObject).Page(pageObject).WebElement(signinObject).Click
+ Browser(browserObject).Page(pageObject).WebEdit(EmailObject).Set "1998magade@gmail.com"
+      Browser(browserObject).Page(pageObject).WebButton(ContinueObject).Click
+      Browser(browserObject).Page(pageObject).Link(forgotObject).Click
+       Browser(browserObject).Page(pageObject).WebButton(ContinueObject).Click
+       Browser(browserObject).Page(pageObject).Link(ReOTPObject).Click
+ res12= Browser(browserObject).Page(pageObject).WebElement(check_12Object).GetRoProperty("text")
+ If strcomp(res11,res12)=0 Then
+Reporter.ReportEvent micPass, "resend otp", "pass"	
+Else
+Reporter.ReportEvent micFail, "resend otp", "fail"
+End if
+ If strcomp(res11,res12)=0 Then
+resendotp= "pass"	
+Else
+resendotp= "fail"
+End if
+SystemUtil.CloseProcessByName"chrome.exe"
+End Function
+	
+Function NeEmail()
+Dim res13,res14
+res13="Enter your email or mobile phone number"
+Browser(browserObject).Page(pageObject).WebElement(signinObject).Click
+ Browser(browserObject).Page(pageObject).WebButton(ContinueObject).Click
+  res14= Browser(browserObject).Page(pageObject).WebElement(check_13Object).GetRoProperty("text")
+ If strcomp(res13,res14)=0 Then
+Reporter.ReportEvent micPass, "not enter email", "pass"	
+Else
+Reporter.ReportEvent micFail, "not enter email", "fail"
+End if
+ If strcomp(res13,res14)=0 Then
+NeEmail= "pass"	
+Else
+NeEmail= "fail"
+End if
+End Function
+	
+ 
+Function enterpass()
+	Dim res17,res18
+	res17="Enter your password"
+Browser(browserObject).Page(pageObject).WebElement(signinObject).Click
+Browser(browserObject).Page(pageObject).WebEdit(EmailObject).set"1998magade@gmail.com"
+Browser(browserObject).Page(pageObject).WebButton(ContinueObject).click
+Browser(browserObject).Page(pageObject).WebButton(sign1Object).Click
+res18=Browser(browserObject).Page(pageObject).WebElement(Check_15Object).GetROProperty("text")
+ If strcomp(res17,res18)=0 Then
+Reporter.ReportEvent micPass, "enter pass", "pass"	
+Else
+Reporter.ReportEvent micFail, "enter pass", "fail"
+End If
+ If strcomp(res17,res18)=0 Then
+ enterpass="pass"	
+Else
+enterpass="fail"
+End If
+End Function
+
+
+

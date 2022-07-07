@@ -1,0 +1,262 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "chrome.exe",1</Name>
+    <StartTime>2022-07-05 21:15:50</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>c8b383b12596440095c14a7af89fdca0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WebElement ].Click</Name>
+    <Description />
+    <StartTime>2022-07-05 21:15:55</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[[ WebElement ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>dd378cf48d3c48bf8a8f270c599ad697</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ email ].Set</Name>
+    <Description>"1998magade@gmail.com"</Description>
+    <StartTime>2022-07-05 21:15:56</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Amazon Sign In ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Amazon Sign In ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ email ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["1998magade@gmail.com"]]></OperationData>
+      </TestObject>
+      <IconKey>435b254df06845b68d5bf8dc49d9aa18</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WebButton ].Click</Name>
+    <Description />
+    <StartTime>2022-07-05 21:15:57</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Amazon Sign In ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ WebButton ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>4eb4ed1aafc044bba6631a109fb1344a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WebEdit ].Set</Name>
+    <Description>"Sa@1234"</Description>
+    <StartTime>2022-07-05 21:15:58</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Amazon Sign In ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ WebEdit ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["Sa@1234"]]></OperationData>
+      </TestObject>
+      <IconKey>435b254df06845b68d5bf8dc49d9aa18</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WebButton ].Click</Name>
+    <Description />
+    <StartTime>2022-07-05 21:15:58</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Amazon Sign In ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ WebButton ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>4eb4ed1aafc044bba6631a109fb1344a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>InvalidCredential</Name>
+    <Description>fail</Description>
+    <StartTime>2022-07-05 21:17:01</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>b092013df63149c5909fdf2950483892</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2022-07-05 21:17:32</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>ee6083fec5ed46f188e8b7e6140042a1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2022-07-05 21:15:50</StartTime>
+    <Duration>102</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>e13a176e8c7849d69d704ef952fd7cdc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2022-07-05 21:17:33</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>28dc39524c5e4d4daab8347b45981797</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Amazon_Project1</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-07-05 21:15:45</StartTime>
+    <Duration>108</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>dd0fd7790f254ccfa63c0fdccbc36741</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>ALCHEMYCLOUD\user245</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>16383</TotalMemory>
+      <HostName>alchemycloud.co.in\UFT-32</HostName>
+      <OSInfo>Windows 10 1703 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res157</ResultName>
+    <RunStartTime>2022-07-05 21:15:45</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "chrome.exe",1</Name>
+    <StartTime>2022-07-07 12:57:21</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>33228b1a67874ff683d3cfdc98e612cb</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>TC_008</Name>
+    <Description>Transaction "TC_008" started.</Description>
+    <StartTime>2022-07-07 12:57:22</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>68052c75b3694b7082591278599da25f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WebElement ].Click</Name>
+    <Description />
+    <StartTime>2022-07-07 12:57:27</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[[ WebElement ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>9551faa6cf4346548f04f51ab234c458</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WebButton ].Click</Name>
+    <Description />
+    <StartTime>2022-07-07 12:57:28</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Amazon Sign In ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ WebButton ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>8eb2e690868341d49bb73c30b19e99a9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>resend otp</Name>
+    <Description>pass</Description>
+    <StartTime>2022-07-07 12:57:28</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>8f8fe165feb8467db022d82e9c6293d2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>TC_008</Name>
+    <Description>Transaction "TC_008" ended with "Pass" status (Total Duration: 5.8183 sec Wasted Time: 4.3703 sec).</Description>
+    <StartTime>2022-07-07 12:57:28</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>a30b40c7b7284611a8584b1c4bb28dcb</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action2</Name>
+    <Description />
+    <StartTime>2022-07-07 12:57:20</StartTime>
+    <Duration>10</Duration>
+    <Result>Passed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>255dcf6f475b46879acaf389149026d5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Amazon_Project1</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-07-07 12:57:16</StartTime>
+    <Duration>14</Duration>
+    <Result>Passed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>60f1756f711249ed9b4f058bf9e001ed</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>ALCHEMYCLOUD\user245</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>16383</TotalMemory>
+      <HostName>alchemycloud.co.in\UFT-32</HostName>
+      <OSInfo>Windows 10 1703 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res321</ResultName>
+    <RunStartTime>2022-07-07 12:57:16</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

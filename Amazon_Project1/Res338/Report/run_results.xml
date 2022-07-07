@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Step">
+<Data>
+    <Name>The "Browser_2"  object was not found in the Object Repository.</Name>
+    <ErrorText>The "Browser_2"  object was not found in the Object Repository.
+Check the Object Repository to confirm that the object exists or to find the correct name for the object.</ErrorText>
+    <Description>The &amp;quot;Browser_2&amp;quot;  object was not found in the Object Repository.&lt;BR/&gt;Check the Object Repository to confirm that the object exists or to find the correct name for the object.&lt;BR/&gt;Function file: C:\Users\user245\Documents\AMAZON_PROJECT1\Object_Repo.qfl&lt;BR/&gt;Line (2): &amp;quot;Browser(&amp;quot;Browser_2&amp;quot;).Navigate &amp;quot;https://www.amazon.in/&amp;quot;&amp;quot;.</Description>
+    <StartTime>2022-07-07 17:13:30</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[FuncLibExecutableUnitName]]></ModuleName>
+          <FileName><![CDATA[C:\Users\user245\Documents\AMAZON_PROJECT1\Object_Repo.qfl]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Browser("Browser_2").Navigate "https://www.amazon.in/"]]></Scripts>
+          <LineNo><![CDATA[2]]></LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName><![CDATA[]]></ModuleName>
+          <FileName><![CDATA[]]></FileName>
+          <Language><![CDATA[VBScript global code]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[VBScript global code]]></Scripts>
+          <LineNo><![CDATA[0]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>8c35b9a27f8a43e5b1a1f3d2aef91371</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\17d8af40-d8da-42e8-b7b9-61b0e92d5331.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Run Error</Name>
+    <Description>General run error.</Description>
+    <StartTime>2022-07-07 17:15:38</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>2b8b6acf64754a10b58d7ca4227fdf9c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\67dc828d-36bc-47ac-957c-607acba52a60.jpeg" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Amazon_Project1</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-07-07 17:13:27</StartTime>
+    <Duration>131</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>1a8ab2af99a548d891d0531253a4d491</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>ALCHEMYCLOUD\user245</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>16383</TotalMemory>
+      <HostName>alchemycloud.co.in\UFT-32</HostName>
+      <OSInfo>Windows 10 1703 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res338</ResultName>
+    <RunStartTime>2022-07-07 17:13:27</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

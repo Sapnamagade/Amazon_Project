@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2022-07-07 11:54:51</StartTime>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>763da45e8a484783baa1c4858935aef5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "chrome.exe",1</Name>
+    <StartTime>2022-07-07 11:54:51</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>409a8d76a94b4d1889b0e74eb7837e2f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>The environment parameter "Result" was not found. Confirm that an environment parameter with this name is defined or specify another environment variable.</Name>
+    <ErrorText>The environment parameter "Result" was not found. Confirm that an environment parameter with this name is defined or specify another environment variable.</ErrorText>
+    <Description>The environment parameter &amp;quot;Result&amp;quot; was not found. Confirm that an environment parameter with this name is defined or specify another environment variable.&lt;BR/&gt;Line (14): &amp;quot;DataTable.Value(&amp;quot;Result&amp;quot;,&amp;quot;Test Data&amp;quot;) = Environment.Value(&amp;quot;Result&amp;quot;)&amp;quot;. </Description>
+    <StartTime>2022-07-07 11:54:52</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action2]]></ModuleName>
+          <FileName><![CDATA[Action2]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[DataTable.Value("Result","Test Data") = Environment.Value("Result")]]></Scripts>
+          <LineNo><![CDATA[14]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>34476432c76f4f0ba7043bdd69f02cab</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\81fe73af-20ed-462b-9561-47f88e9403e8.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2022-07-07 11:55:12</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>1375f59f474742afa085b54d66338b1f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action2</Name>
+    <Description />
+    <StartTime>2022-07-07 11:54:51</StartTime>
+    <Duration>21</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>763da45e8a484783baa1c4858935aef5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2022-07-07 11:54:50</StartTime>
+    <Duration>22</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>5d5b3b5fb00c4117a3c95c4e94f9bc77</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Amazon_Project1</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-07-07 11:54:44</StartTime>
+    <Duration>28</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>8effb96d3d1f4c93a741bcdd6c9b2eb1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>ALCHEMYCLOUD\user245</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>16383</TotalMemory>
+      <HostName>alchemycloud.co.in\UFT-32</HostName>
+      <OSInfo>Windows 10 1703 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res308</ResultName>
+    <RunStartTime>2022-07-07 11:54:44</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

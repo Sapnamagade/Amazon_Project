@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Step">
+<Data>
+    <Name>Error in library file.</Name>
+    <ErrorText>Error in library file.</ErrorText>
+    <Description>&lt;BR/&gt;File: C:\Users\user245\Documents\AMAZON_PROJECT1\Descriptive Objects.qfl&lt;BR/&gt;line (234): &amp;quot;Check_7Object(&amp;quot;xpath).value=&amp;quot;//DIV[@id=&amp;quot;auth-error-message-box&amp;quot;]/DIV[1]/DIV[1]/UL[1]/LI[1]/SPAN[1]&amp;quot;&amp;quot;.&lt;BR/&gt;Description: Syntax error</Description>
+    <StartTime>2022-07-06 12:27:41</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>78e305ab3aea43bc86db225a6212d18c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\4eab1567-007b-44e6-ac2d-0fd6766737a5.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Run Error</Name>
+    <Description>General run error.</Description>
+    <StartTime>2022-07-06 12:27:46</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>6d750c07478e4317976d430fa07cbc32</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\18e22132-a0b0-4cac-afef-8365d213fcca.jpeg" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Amazon_Project1</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-07-06 12:27:38</StartTime>
+    <Duration>8</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>5241e66d2f8f41cba6681f895ddc3ce8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>ALCHEMYCLOUD\user245</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>16383</TotalMemory>
+      <HostName>alchemycloud.co.in\UFT-32</HostName>
+      <OSInfo>Windows 10 1703 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res209</ResultName>
+    <RunStartTime>2022-07-06 12:27:38</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

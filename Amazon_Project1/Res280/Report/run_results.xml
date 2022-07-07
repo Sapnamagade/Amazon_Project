@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Step">
+<Data>
+    <Name>The "Browser"  object was not found in the Object Repository.</Name>
+    <ErrorText>The "Browser"  object was not found in the Object Repository.
+Check the Object Repository to confirm that the object exists or to find the correct name for the object.</ErrorText>
+    <Description>The &amp;quot;Browser&amp;quot;  object was not found in the Object Repository.&lt;BR/&gt;Check the Object Repository to confirm that the object exists or to find the correct name for the object.&lt;BR/&gt;Function file: C:\Users\user245\Documents\AMAZON_PROJECT1\Object_Repo.qfl&lt;BR/&gt;Line (28): &amp;quot;Browser(&amp;quot;Browser&amp;quot;).Page(&amp;quot;Amazon.com. Spend less.&amp;quot;).Link(&amp;quot;Sign in&amp;quot;).Click&amp;quot;.</Description>
+    <StartTime>2022-07-07 09:57:37</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[FuncLibExecutableUnitName]]></ModuleName>
+          <FileName><![CDATA[C:\Users\user245\Documents\AMAZON_PROJECT1\Object_Repo.qfl]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Browser("Browser").Page("Amazon.com. Spend less.").Link("Sign in").Click]]></Scripts>
+          <LineNo><![CDATA[28]]></LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName><![CDATA[]]></ModuleName>
+          <FileName><![CDATA[]]></FileName>
+          <Language><![CDATA[VBScript global code]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[VBScript global code]]></Scripts>
+          <LineNo><![CDATA[0]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>7742d78eb59e4e9cb180426c68c665cc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\5ce6fa8c-6eb9-47bc-8e07-6fb6c7a2f1a4.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Run Error</Name>
+    <Description>General run error.</Description>
+    <StartTime>2022-07-07 09:57:46</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>99fef08ddfd540ccb27bcda190c79798</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\69973c40-e8f7-41e8-9c95-d18208c7e5c1.jpeg" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Amazon_Project1</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-07-07 09:57:33</StartTime>
+    <Duration>13</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>4a87fbceeb0b48f297e35f248f0adb88</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>ALCHEMYCLOUD\user245</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>16383</TotalMemory>
+      <HostName>alchemycloud.co.in\UFT-32</HostName>
+      <OSInfo>Windows 10 1703 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res280</ResultName>
+    <RunStartTime>2022-07-07 09:57:33</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

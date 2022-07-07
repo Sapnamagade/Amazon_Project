@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "chrome.exe",1</Name>
+    <StartTime>2022-07-04 16:15:23</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>eacf399b632140b0982f87193f61542c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>The "browserObject" Browser object was not found in the Object Repository.</Name>
+    <ErrorText>The "browserObject" Browser object was not found in the Object Repository.
+Check the Object Repository to confirm that the object exists or to find the correct name for the object.</ErrorText>
+    <Description>The &amp;quot;browserObject&amp;quot; Browser object was not found in the Object Repository.&lt;BR/&gt;Check the Object Repository to confirm that the object exists or to find the correct name for the object.&lt;BR/&gt;Function file: C:\Users\user245\Documents\AMAZON_PROJECT1\User functions.qfl&lt;BR/&gt;Line (4): &amp;quot;Browser(&amp;quot;browserObject&amp;quot;).Page(&amp;quot;pageObject&amp;quot;).WebElement(&amp;quot; signinObject&amp;quot;).Click&amp;quot;.</Description>
+    <StartTime>2022-07-04 16:15:23</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[FuncLibExecutableUnitName]]></ModuleName>
+          <FileName><![CDATA[C:\Users\user245\Documents\AMAZON_PROJECT1\User functions.qfl]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[signButton]]></FunctionName>
+          <Scripts><![CDATA[Browser("browserObject").Page("pageObject").WebElement(" signinObject").Click]]></Scripts>
+          <LineNo><![CDATA[4]]></LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript global code]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[signButton()]]></Scripts>
+          <LineNo><![CDATA[4]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>69350e99ef324af99cc638cc7f69e7dc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\9d17a551-e04c-405d-a20f-994d18c2cbb9.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2022-07-04 16:16:35</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>f0175a7c50f34e319b2a21bf7de6e6be</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2022-07-04 16:15:23</StartTime>
+    <Duration>72</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>a781976bb3e445489a9a7f88d978f393</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Amazon_Project1</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-07-04 16:15:04</StartTime>
+    <Duration>91</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>081acd12799a4f9baf8b89b408622112</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>ALCHEMYCLOUD\user245</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>16383</TotalMemory>
+      <HostName>alchemycloud.co.in\UFT-32</HostName>
+      <OSInfo>Windows 10 1703 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res63</ResultName>
+    <RunStartTime>2022-07-04 16:15:04</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

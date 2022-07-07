@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Step">
+<Data>
+    <Name>Error in library file.</Name>
+    <ErrorText>Error in library file.</ErrorText>
+    <Description>&lt;BR/&gt;File: C:\Users\user245\Documents\AMAZON_PROJECT1\Descriptive Objects.qfl&lt;BR/&gt;line (44): &amp;quot;signinObject(&amp;quot;xpath&amp;quot;).value=&amp;quot;//DIV[@id=&amp;quot;nav-flyout-ya-signin&amp;quot;]/A[1]/SPAN[1]&amp;quot;&amp;quot;.&lt;BR/&gt;Description: Expected end of statement</Description>
+    <StartTime>2022-07-04 22:34:48</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>a44b5cca6d254b9f928990f36d2c8659</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\b42a7e4a-8bb9-4fc5-ae45-e47965640418.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "chrome.exe",1</Name>
+    <StartTime>2022-07-04 22:34:56</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>5c2be7b459e94550b6d311a1b85d4e81</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Failed to run the test due to an unknown error.</Name>
+    <ErrorText>Failed to run the test due to an unknown error.</ErrorText>
+    <Description>&lt;BR/&gt;Function file: C:\Users\user245\Documents\AMAZON_PROJECT1\User functions.qfl&lt;BR/&gt;Line (60): &amp;quot;Browser(BrowserObject).Page(pageObject).WebElement(signinObject).Click&amp;quot;.</Description>
+    <StartTime>2022-07-04 22:34:56</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[FuncLibExecutableUnitName]]></ModuleName>
+          <FileName><![CDATA[C:\Users\user245\Documents\AMAZON_PROJECT1\User functions.qfl]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[new_account]]></FunctionName>
+          <Scripts><![CDATA[Browser(BrowserObject).Page(pageObject).WebElement(signinObject).Click]]></Scripts>
+          <LineNo><![CDATA[60]]></LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript global code]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[new_account()]]></Scripts>
+          <LineNo><![CDATA[7]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>a44b5cca6d254b9f928990f36d2c8659</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\39b93c7d-07bd-4854-9535-6ebf49f5b7f0.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2022-07-04 22:35:06</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>bc2c43686679402a97e19612ecc47758</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2022-07-04 22:34:55</StartTime>
+    <Duration>11</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>875b08af8856497ca337491c4745d373</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Amazon_Project1</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-07-04 22:34:23</StartTime>
+    <Duration>43</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>1e01e63a0df148169e4707cf7d78e499</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>ALCHEMYCLOUD\user245</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>16383</TotalMemory>
+      <HostName>alchemycloud.co.in\UFT-32</HostName>
+      <OSInfo>Windows 10 1703 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res80</ResultName>
+    <RunStartTime>2022-07-04 22:34:23</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

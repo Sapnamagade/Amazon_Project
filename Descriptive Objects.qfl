@@ -1,0 +1,283 @@
+﻿
+Set browserObject= Description.Create
+browserObject("creationtime").value="0"
+
+Set pageObject= Description.Create
+pageObject("micclass").value="Page"
+
+Set signinObject= Description.Create
+signinObject("xpath").value="//DIV[@id='nav-flyout-ya-signin']/A[1]/SPAN[1]"
+
+Set EmailObject= Description.Create
+EmailObject("html id").value="ap_email"
+
+Set ContinueObject= Description.Create
+ContinueObject("xpath").value="//INPUT[@id='continue']"
+
+Set psw_Object= Description.Create
+psw_Object("xpath").value="//INPUT[@id='ap_password']"
+
+Set signinObject= Description.Create
+signinObject("xpath").value="//DIV[@id='nav-flyout-ya-signin']/A[1]/SPAN[1]"
+
+Set check_1Object = Description.Create
+check_1Object("xpath").value="//A[@id='nav-link-accountList']/DIV/SPAN[normalize-space()='Hello, Sana']"
+
+'------------ forgotpass--------------
+
+Set browserObject= Description.Create
+browserObject("creationtime").value="0"
+
+Set pageObject= Description.Create
+pageObject("micclass").value="Page"
+
+Set signinObject= Description.Create
+signinObject("xpath").value="//DIV[@id='nav-flyout-ya-signin']/A[1]/SPAN[1]"
+
+Set EmailObject= Description.Create
+EmailObject("html id").value="ap_email"
+
+Set ContinueObject= Description.Create
+ContinueObject("xpath").value="//INPUT[@id='continue']"
+
+Set LinkObject= Description.Create
+LinkObject("html id").value="auth-fpp-link-bottom"
+
+Set OTPObject= Description.Create
+OTPObject("xpath").value="//INPUT[@id='cvf-input-code']"
+
+'---------------create new account---------------------
+Set browserObject= Description.Create
+browserObject("creationtime").value="0"
+
+Set pageObject= Description.Create
+pageObject("micclass").value="Page"
+
+Set signin_Object= Description.Create
+signinObject("xpath").value="//DIV[@id='nav-flyout-ya-signin']/A[1]/SPAN[1]"
+
+Set new_accObject= Description.Create
+new_accObject("html id").value="createAccountSubmit"
+
+Set name_Object= Description.Create
+name_Object("html id").value="ap_customer_name"
+
+Set mob_Object= Description.Create
+mob_Object("xpath").value="//INPUT[@id='ap_phone_number']"
+
+Set EmailObject= Description.Create
+EmailObject("html id").value="ap_email"
+
+
+Set psw_Object= Description.Create
+psw_Object("xpath").value="//INPUT[@id='ap_password']"
+
+Set ContinueObject= Description.Create
+ContinueObject("xpath").value="//INPUT[@id='continue']"
+
+'-----------validcredential------------------
+
+Set browserObject= Description.Create
+browserObject("creationtime").value="0"
+
+Set pageObject= Description.Create
+pageObject("micclass").value="Page"
+
+Set signinObject= Description.Create
+signinObject("xpath").value="//DIV[@id='nav-flyout-ya-signin']/A[1]/SPAN[1]"
+
+Set EmailObject= Description.Create
+EmailObject("html id").value="ap_email"
+
+Set ContinueObject= Description.Create
+ContinueObject("xpath").value="//INPUT[@id='continue']"
+
+Set psw_Object= Description.Create
+psw_Object("xpath").value="//INPUT[@id='ap_password']"
+
+Set signinObject= Description.Create
+signinObject("xpath").value="//DIV[@id='nav-flyout-ya-signin']/A[1]/SPAN[1]"
+
+'--------invalidcredential---------------
+
+Set browserObject= Description.Create
+browserObject("creationtime").value="0"
+
+Set pageObject= Description.Create
+pageObject("micclass").value="Page"
+
+Set signinObject= Description.Create
+signinObject("xpath").value="//DIV[@id='nav-flyout-ya-signin']/A[1]/SPAN[1]"
+
+Set EmailObject= Description.Create
+EmailObject("html id").value="ap_email"
+
+Set ContinueObject= Description.Create
+ContinueObject("xpath").value="//INPUT[@id='continue']"
+
+Set pswObject= Description.Create
+pswObject("html id").value="ap_password"
+
+Set sign1Object= Description.Create
+sign1Object("html id").value="signInSubmit"
+
+Set check_2Object= Description.Create
+check_2Object("xpath").value="//DIV[@id='auth-warning-message-box']/DIV[1]/DIV[1]/UL[1]/LI[1]/SPAN[1]"
+
+'------------------validate-otp-------------------Browser("Online Shopping site in").Page("Amazon Sign In").WebElement("To better protect your").Click
+
+
+Set browserObject= Description.Create
+browserObject("creationtime").value="0"
+
+Set pageObject= Description.Create
+pageObject("micclass").value="Page"
+
+Set signinObject= Description.Create
+signinObject("xpath").value="//DIV[@id='nav-flyout-ya-signin']/A[1]/SPAN[1]"
+'"xpath:=//DIV[@id='nav-signin-tooltip']/A[1]/SPAN[1]
+Set EmailObject= Description.Create
+EmailObject("html id").value="ap_email"
+
+Set ContinueObject= Description.Create
+ContinueObject("xpath").value="//INPUT[@id='continue']"
+
+Set forgotObject= Description.Create
+forgotObject("xpath").value="//A[@id='auth-fpp-link-bottom']"
+
+Set otpObject= Description.Create
+otpObject("html id").value="cvf-input-code"
+
+Set ContiObject= Description.Create
+ContiObject("xpath").value="//SPAN[@id='cvf-submit-otp-button']/SPAN[normalize-space()='Continue']/INPUT[1]"
+
+'Set contiObject= Description.Create
+'contiObject("xpath").value="//SPAN[@id='cvf-submit-otp-button']/SPAN[normalize-space()='Continue']/INPUT[1]"
+
+Set check_4Object= Description.Create
+check_4Object("xpath").value="//FORM[@id='verification-code-form']/DIV[6]/DIV[@role='alert'][1]/DIV[1]/DIV[1]/DIV[1]"
+
+'------------after sign in------------------
+
+Set browserObject= Description.Create
+browserObject("creationtime").value="0"
+
+Set pageObject= Description.Create
+pageObject("micclass").value="Page"
+
+Set signinObject= Description.Create
+signinObject("xpath").value="//DIV[@id='nav-flyout-ya-signin']/A[1]/SPAN[1]"
+
+Set EmailObject= Description.Create
+EmailObject("html id").value="ap_email"
+
+Set ContinueObject= Description.Create
+ContinueObject("xpath").value="//INPUT[@id='continue']"
+
+Set psw_Object= Description.Create
+psw_Object("xpath").value="//INPUT[@id='ap_password']"
+
+Set signinObject= Description.Create
+signinObject("xpath").value="//DIV[@id='nav-flyout-ya-signin']/A[1]/SPAN[1]"
+
+'--------------invalpass----------------------
+
+Set browserObject= Description.Create
+browserObject("creationtime").value="0"
+
+Set pageObject= Description.Create
+pageObject("micclass").value="Page"
+
+Set signin_Object= Description.Create
+signinObject("xpath").value="//DIV[@id='nav-flyout-ya-signin']/A[1]/SPAN[1]"
+
+Set new_accObject= Description.Create
+new_accObject("html id").value="createAccountSubmit"
+
+Set name_Object= Description.Create
+name_Object("html id").value="ap_customer_name"
+
+Set mob_Object= Description.Create
+mob_Object("xpath").value="//INPUT[@id='ap_phone_number']"
+
+Set EmailObject= Description.Create
+EmailObject("html id").value="ap_email"
+
+
+Set psw_Object= Description.Create
+psw_Object("xpath").value="//INPUT[@id='ap_password']"
+
+Set ContinueObject= Description.Create
+ContinueObject("xpath").value="//INPUT[@id='continue']"
+
+Set Check_6Object= Description.Create
+Check_6Object("xpath").value="//DIV[@id='auth-password-invalid-password-alert']/DIV[1]/DIV[1]"
+
+'--------------account not found------
+
+Set browserObject= Description.Create
+browserObject("creationtime").value="0"
+
+Set pageObject= Description.Create
+pageObject("micclass").value="Page"
+
+Set signinObject= Description.Create
+signinObject("xpath").value="//DIV[@id='nav-flyout-ya-signin']/A[1]/SPAN[1]"
+
+Set EmailObject= Description.Create
+EmailObject("html id").value="ap_email"
+
+Set ContinueObject= Description.Create
+ContinueObject("xpath").value="//INPUT[@id='continue']"
+
+Set Check_8Object= Description.Create
+Check_8Object("xpath").value="//DIV[@id='auth-error-message-box']/DIV[1]/DIV[1]/UL[1]/LI[1]/SPAN[1]"
+
+Set browserObject= Description.Create
+browserObject("creationtime").value="0"
+
+Set pageObject= Description.Create
+pageObject("micclass").value="Page"
+
+Set signin_Object= Description.Create
+signinObject("xpath").value="//DIV[@id='nav-flyout-ya-signin']/A[1]/SPAN[1]"
+
+Set new_accObject= Description.Create
+new_accObject("html id").value="createAccountSubmit"
+
+Set namObject= Description.Create
+namObject("xpath").value="//INPUT[@id='ap_customer_name']"
+
+Set emailObject= Description.Create
+emailObject("xpath").value="//INPUT[@id='ap_email']"
+
+Set pasObject= Description.Create
+pasObject("xpath").value="//INPUT[@id='ap_password']"
+
+Set repassObject= Description.Create
+repassObject("xpath").value="//INPUT[@id='ap_password_check']"
+
+Set ContinueObject= Description.Create
+ContinueObject("xpath").value="//INPUT[@id='continue']"
+
+Set ReOTPObject= Description.Create
+ReOTPObject("xpath").value="//A[@id='cvf-resend-link']"
+
+Set check_12Object = Description.Create
+check_12Object("xpath").value="//FORM[@id='verification-code-form']/DIV[6]/DIV[1]/DIV[1]/DIV[1]/DIV[1]"
+
+Set check_13Object = Description.Create
+check_13Object("xpath").value="//DIV[@id='auth-email-missing-alert']/DIV[1]/DIV[1]"
+
+Set check_14Object = Description.Create
+check_14Object("xpath").value="//FORM[@id='verification-code-form']/DIV[4]/DIV[2]"
+
+Set check_15Object = Description.Create
+check_15Object("xpath").value="//DIV[@id='auth-password-missing-alert']/DIV[1]/DIV[1]"
+
+Set check_18Object = Description.Create
+check_18Object("xpath").value="//DIV[@id='cvf-page-content']/DIV[1]/DIV[1]/DIV[1]/DIV[1]/SPAN[1]"
+
+
+
+

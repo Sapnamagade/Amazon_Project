@@ -1,0 +1,121 @@
+﻿Function executeTest(testCaseID)
+    Select Case testCaseID
+  'Case "TC_001"
+     ' services.StartTransaction"TC_001"
+    '  Environment.Value("Result")=  signin()
+    '  services.EndTransaction"TC_001"
+  
+   Case"TC_002"
+          Services.StartTransaction"TC_002"
+         Environment.Value("Result")=forgot()
+          services.EndTransaction"TC_002"
+           
+          Case"TC_003"
+       Services.StartTransaction"TC_003"
+         Environment.Value("Result")= InvalidCredential()
+        Services.EndTransaction"TC_003"
+          
+       Case"TC_004"
+         Services.StartTransaction"TC_004"
+       Environment.Value("Result")= validate_OTP()
+          Services.EndTransaction"TC_004"
+          
+   Case"TC_005"
+         Services.StartTransaction"TC_005"
+   Environment.Value("Result")=  inval_pass()
+          Services.EndTransaction"TC_005"
+           
+       Case"TC_006"
+          Services.StartTransaction"TC_006"
+         Environment.Value("Result")= accnotfound()
+        Services.EndTransaction"TC_006"
+          
+        'Case"TC_007"
+         ' Services.StartTransaction"TC_007"
+          'Environment.Value("Result")=resendotp()
+          'Services.EndTransaction"TC_007"
+           
+       'Case"TC_008"
+         'Services.StartTransaction"TC_008"
+          'Environment.Value("Result")= NeEmail()
+          'Services.EndTransaction"TC_008"
+          
+  'Case"TC_009"
+        ' Services.StartTransaction"TC_009"
+       '  Environment.Value("Result")= enterpass()
+          ' Services.EndTransaction"TC_009"
+           
+    '  Case"TC_010"
+         ' Services.StartTransaction"TC_010"
+         ' Environment.Value("Result")= new_account()
+       '  Services.EndTransaction"TC_010"
+          
+     'Case"TC_011"
+   '    Services.StartTransaction"TC_011"
+     ' Environment.Value("Result")=  OR_ROTP()
+       'Services.EndTransaction"TC_011"
+          
+''        Case"TC_012"
+''           Service.StartTransaction"TC_012"
+''           Environment.Value("Result")= 
+''           Service.EndTransaction"TC_012"
+''           
+''        Case"TC_012"
+''           Service.StartTransaction"TC_012"
+''           Environment.Value("Result")= 
+''           Service.EndTransaction"TC_012"
+''           
+''        Case"TC_013"
+''           Service.StartTransaction"TC_013"
+''           Environment.Value("Result")= 
+''           Service.EndTransaction"TC_013"
+''           
+''        Case"TC_014"
+''           Service.StartTransaction"TC_014"
+''           Environment.Value("Result")= 
+''           Service.EndTransaction"TC_014"
+''           
+''         Case"TC_015"
+''           Service.StartTransaction"TC_015"
+''           Environment.Value("Result")= 
+''           Service.EndTransaction"TC_015"
+''           
+''         Case"TC_016"
+''           Service.StartTransaction"TC_016"
+''           Environment.Value("Result")= 
+''           Service.EndTransaction"TC_016"
+''           
+''        Case"TC_017"
+''           Service.StartTransaction"TC_017"
+''           Environment.Value("Result")= 
+''           Service.EndTransaction"TC_017"
+''           
+''       Case"TC_018"
+''           Service.StartTransaction"TC_018"
+''           Environment.Value("Result")= 
+''           Service.EndTransaction"TC_018"
+''           
+''        Case"TC_019"
+''           Service.StartTransaction"TC_019"
+''           Environment.Value("Result")= 
+''           Service.EndTransaction"TC_019"
+''           
+''        Case"TC_020"
+''           Service.StartTransaction"TC_020"
+''           Environment.Value("Result")= 
+''           Service.EndTransaction"TC_020"
+''           
+''         Case"TC_021"
+''           Service.StartTransaction"TC_021"
+''           Environment.Value("Result")= 
+''           Service.EndTransaction"TC_021"
+''           
+''           
+              End Select
+                 End Function
+''           
+''           
+''           
+''           
+''           
+''           

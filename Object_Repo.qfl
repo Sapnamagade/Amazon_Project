@@ -1,0 +1,60 @@
+﻿'-------resend otp---------------
+Function OR_ROTP()
+Dim res17,res18
+	res17="A new OTP has been sent to your email."
+'SystemUtil.Run"chrome.exe","http://www.amazon.in/"
+Browser("Online Shopping site in").Navigate "https://www.amazon.in/"
+Browser("Online Shopping site in").Page("Online Shopping site in").Link("Sign in").Click
+Browser("Online Shopping site in").Page("Amazon Sign In").WebEdit("email").Set "1998magade@gmail.com"
+Browser("Online Shopping site in").Page("Amazon Sign In").WebButton("Continue").Click
+Browser("Online Shopping site in").Page("Amazon Sign In").Link("Forgot Password").Click
+Browser("Online Shopping site in").Page("Amazon Password Assistance").WebButton("Continue").Click
+Browser("Online Shopping site in").Page("Authentication required").Link("Resend OTP").Click
+res18=Browser("Online Shopping site in").Page("Authentication required_4").WebElement("A new OTP has been sent").GetROProperty("text")
+
+ If strcomp(res17,res18)=0 Then
+Reporter.ReportEvent micPass, "resend otp", "pass"	
+Else
+Reporter.ReportEvent micFail, "resend otp", "fail"
+End If
+ If strcomp(res17,res18)=0 Then
+OR_ROTP="pass"	
+Else
+OR_ROTP="fail"
+End If
+End function
+
+'Browser("Browser_2").Navigate "https://www.amazon.in/"
+'Browser("Online Shopping site in").Page("Online Shopping site in").WebElement("leadup").Click
+'Browser("Browser").Page("Amazon.in | Prime Day").Link("Sign in").Click
+'Browser("Browser").Page("Amazon Sign In").WebEdit("email").Set "1998magade@gmail.com"
+'Browser("Browser").Page("Amazon Sign In").WebButton("Continue").Click
+'Browser("Browser").Page("Amazon Sign In").Link("Forgot Password").Click
+'Browser("Browser").Page("Amazon Password Assistance_2").WebButton("Continue").Click
+'Browser("Browser").Page("Authentication required").Link("Resend OTP").Click
+'Browser("Browser").Page("Authentication required_2").WebElement("A new OTP has been sent").Check CheckPoint("A new OTP has been sent to your email.")
+ 
+ '-----------NeEmail() not exist mail id-----------------------
+'Browser("Online Shopping site in").Page("Amazon.com. Spend less.").Link("Sign in").Click
+'Browser("Online Shopping site in").Page("Amazon Sign-In").WebButton("Continue").Click
+'Browser("Online Shopping site in").Page("Amazon Sign-In").WebElement("Enter your email or mobile").Check CheckPoint("Enter your email or mobile phone number")
+
+'---------------------------send otp------------------------
+'Browser("Online Shopping site in").Page("Amazon.com. Spend less.").Link("Sign in_2").Click
+'Browser("Online Shopping site in").Page("Amazon Sign-In").WebEdit("email").Set "1998magade@gmail.com"
+'Browser("Online Shopping site in").Page("Amazon Sign-In").WebButton("Continue").Click
+'Browser("Online Shopping site in").Page("Amazon Sign-In").Link("Forgot your password?").Click
+'Browser("Online Shopping site in").Page("Amazon Password Assistance_2").WebButton("Continue").Click
+'Browser("Browser").Page("Authentication required_3").WebElement("We've sent a One Time").Check CheckPoint("We've sent a One Time Password (OTP) to the email 1998magade@gmail.com.")
+
+
+'-------------------sigin---------------------------
+'Browser("Online Shopping site in").Navigate "https://www.amazon.in/"
+'Browser("Browser").Page("Amazon.com. Spend less.").Link("Sign in").Click
+'Browser("Browser").Page("Amazon Sign-In").WebEdit("email").Set "1998magade@gmail.com"
+'Browser("Browser").Page("Amazon Sign-In").WebButton("Continue").Click
+'Browser("Browser").Page("Amazon Sign-In").WebEdit("password").SetSecure "62c62d105d11d96be669ec623eb5da9246ea5f5aaad7d30fed47c7b02e41014dba80ea4d"
+'Browser("Browser").Page("Amazon Sign-In").WebButton("Continue").Click
+'Browser("Online Shopping site in").Page("Online Shopping site in").WebElement("nav-link-accountList-nav-line-").Check CheckPoint("nav-link-accountList-nav-line-1")
+
+
